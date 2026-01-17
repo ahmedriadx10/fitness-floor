@@ -1,0 +1,141 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.b-color{
+    color: #E6533C;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container{
+    max-width:1060px ;
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+nav{
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+
+nav ul{
+ border: 1px solid rgba(255, 255, 255, 0.1);   
+}
+
+
+ul li a{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+
+
+/* hero banner area */
+
+#hero_area{
+margin: 50px auto;
+}
+
+.hero_intro{
+max-width: 550px;
+width: 100%;
+}
+
+
+.hero_intro h2{
+    font-weight:900 ;
+    font-size: 78px;
+    margin-bottom: 28px;
+}
+
+.hero_intro p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hero_btn_area button{
+    border-radius: 42px;
+    color: #FFFFFF;
+    padding: 16px 45px;
+    font-size: 18px;
+font-weight: 600;
+
+
+}
+
+.tooltip1,.tooltip2{
+background-color: rgba(128, 128, 128, 0.322);
+}
+
+.tooltip1 p ,tooltip2 p{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+
+/* responsive desing */
+
+@media screen and (max-width:576px){
+
+    .container{
+        width: 95%;
+    }
+
+    #hero_area{
+    flex-direction: column;
+    }
+
+    .hero_btn_area{
+        justify-content: center;
+    }
+
+  .hero_btn_area button{
+    padding: 13px 18px;
+  }
+
+    nav ul{
+        display: none;
+    }
+
+    #ham_menu{
+        display:block;
+    }
+
+    .hero_intro h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .tooltip1{
+        width: 150px;
+        top: 12%;
+        right: 5%;
+    }
+
+    .tooltip1 h6{
+        font-size: 30px;
+    }
+
+    .tooltip2{
+        bottom: 44%;
+        left: 7%;
+    }
+    /* .tooltip2{
+        top: 0;
+        left: 0;
+
+    } */
+
+
+}

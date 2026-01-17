@@ -4,9 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fitness Floor</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="tailwind-init.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header> </header>
+
+  <!-- hero area -->
+  <header>
+    
+    <nav class="container flex items-center">
+<h1 class="b-color text-4xl font-extrabold italic">Fitness</h1>
+
+
+<!-- mobile view -->
+ <div class="hidden" id="ham_menu"><i class="fa-solid fa-bars text-white text-2xl"></i></div>
+<ul class="flex gap-[47px] border border- rounded-[36px] pr-4 items-center">
+  <li class="bg-[#E6533C] py-2 px-7  rounded-[36px]"><a href="#">Home</a></li>
+  <li><a href="#">Service</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">About</a></li>
+</ul>
+
+    </nav>
+  
+  
+    <section class=" container flex justify-between" id="hero_area">
+
+<div class="hero_intro">
+  <h2 class="text-[#FFFFFF]">Get body in shape & stay healthy</h2>
+  <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+  <div class="hero_btn_area flex gap-5 my-5 ">
+    <button type="button" class="bg-[#E6533C]">Join Club Now !</button>
+    <button type="button" class="border border-white">Download App</button>
+  </div>
+</div>
+
+
+<div class="hero_img relative">
+  <img src="images/Images 2.png" alt="">
+<div class="tooltip1 absolute w-[193px] rounded-xl backdrop-blur-sm top-[25%] right-[-28%] pl-4 pb-2.5">
+  <h6 class="text-[50px] font-extrabold text-white">500+</h6>
+  <span class="text-[#595959] text-[13px]">Free Workout Videos</span>
+</div>
+<div class="tooltip2 absolute w-[193px] rounded-xl backdrop-blur-sm bottom-[10%] left-[-28%] p-4 flex gap-2.5 items-center">
+<div class="w-10 h-10 rounded-[50%] bg-[#E6533C]"></div>
+<div>  <h6 class="text-[24px] font-extrabold text-white">350+</h6>
+  <span class="text-[#595959] text-[13px]">Video tutorial</span></div>
+</div>
+</div>
+
+    </section>
+  
+  
+  
+  
+  </header>
   <main> </main>
   <footer> </footer>
 </body>
