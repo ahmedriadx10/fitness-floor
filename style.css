@@ -23,9 +23,19 @@ img{
 }
 button{
     cursor: pointer;
+    transition: box-shadow 0.5s linear;
 }
 
+button:hover{
+    box-shadow: 0 0 15px #E6533C;
+}
 
+a{
+    transition: color 0.2s linear;
+}
+a:hover{
+    color: #E6533C;
+}
 
 nav{
     justify-content: space-between;
