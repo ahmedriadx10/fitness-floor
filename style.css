@@ -87,6 +87,71 @@ background-color: rgba(128, 128, 128, 0.322);
 
 
 
+#training_img_college{
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,200px);
+}
+
+#training_img_college img{
+    width: 100%;
+    height: 100%;
+}
+.A{
+position: relative;
+
+background:rgba(0, 255, 255, 0.5);
+}
+.A img{
+    position: absolute;
+    z-index: -1;
+}
+.B{
+    position: relative;
+background-color: rgba(255, 0, 0, 0.418);
+    grid-column: 2/4;
+}
+.B img{
+    position: absolute;
+    z-index: -1;
+}
+.C{
+position: relative;
+background-color: rgba(128, 128, 128, 0.233);
+}
+.C img{
+    position: absolute;
+    z-index: -1;
+}
+.D{
+ grid-column: 1/3;
+ position: relative;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+.D img{
+    position: absolute;
+    z-index: -1;
+}
+.E{
+position: relative;
+background-color: rgba(0, 128, 0, 0.5);
+}
+
+.E img{
+    position: absolute;
+    z-index: -1;
+}
+.F{
+position: relative;
+background-color: rgba(0, 0, 255, 0.5);
+}
+
+
+.F img{
+    position: absolute;
+    z-index: -1;
+}
+
+
 
 
 
@@ -162,6 +227,30 @@ background-color: rgba(128, 128, 128, 0.322);
         width: 100%;
     }
 
+   
+ 
+   
+#training_img_college{
+grid-template-columns: repeat(2,1fr);
+}
+
+.B{
+    grid-column: 2/3;
+}
+
+.D{
+    grid-column: 1/2;
+}
+
+.C{
+    display: none;
+}
+
+.F{
+    display: none;
+}
+
+
 }
 
 
@@ -218,14 +307,34 @@ background-color: rgba(128, 128, 128, 0.322);
         left: 20%;
     }
 
-    
-   #goals{
+
+#goals{
         grid-template-columns: repeat(2,231px);
      justify-content: center;
-     gap: 40px;
+     gap: 20px;
     }
- 
-   
+    
+
+   #training_img_college{
+grid-template-columns: repeat(3,1fr);
+}
+
+.B{
+    grid-column: 2/3;
+}
+
+.D{
+    grid-column: 1/2;
+}
+
+.C{
+    display: block;
+}
+
+.F{
+    display: block;
+}
+
 
 
 }
