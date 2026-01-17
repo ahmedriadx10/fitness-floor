@@ -7,6 +7,9 @@ body{
     color: #E6533C;
 }
 
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 img{
     max-width: 100%;
@@ -84,6 +87,10 @@ background-color: rgba(128, 128, 128, 0.322);
 
 
 
+
+
+
+
 /* responsive desing */
 
 @media screen and (max-width:576px){
@@ -119,8 +126,10 @@ background-color: rgba(128, 128, 128, 0.322);
 
     .tooltip1{
         width: 150px;
-        top: 12%;
-        right: 5%;
+        /* top: 12%;
+        right: 15%; */
+        top: 74px;
+        right: 9px;
     }
 
     .tooltip1 h6{
@@ -131,11 +140,129 @@ background-color: rgba(128, 128, 128, 0.322);
         bottom: 44%;
         left: 7%;
     }
-    /* .tooltip2{
-        top: 0;
-        left: 0;
 
-    } */
+    #goals{
+        grid-template-columns: 231px;
+        justify-content: center;
+        gap: 30px;
+    }
+ 
+ #fitness_group_card{
+        flex-direction: column;
+        gap: 30px;
+    }
 
 
+    #fitness_group_card h4{
+        font-size: 32px;
+
+    }
+
+    #fitness_group_card button{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    .container{
+        width: 96%;
+    }
+
+    #hero_area{
+    flex-direction: column;
+    
+    }
+
+    .hero_btn_area{
+        justify-content: center;
+    }
+
+  .hero_btn_area button{
+    padding: 13px 18px;
+  }
+
+    nav ul{
+        display:none;
+    }
+
+    #ham_menu{
+        display:block;
+    }
+
+    .hero_intro h2{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .hero_img img{
+        display: block;
+        margin: 0 auto;
+    }
+  
+
+    .tooltip1 h6{
+        font-size: 40px;
+    }
+
+
+    .tooltip1{
+        left: 60%;
+
+    }
+
+    .tooltip2{
+        bottom: 20%;
+        left: 20%;
+    }
+
+    
+   #goals{
+        grid-template-columns: repeat(2,231px);
+     justify-content: center;
+     gap: 40px;
+    }
+ 
+   
+
+
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1300px) {
+.container{
+    width: 90%;
+}
+
+
+
+    
+
+  
+
+  
+
+    .hero_intro h2{
+        font-size: 72px;
+        font-weight: bold;
+    }
+
+
+
+    .tooltip1{
+    right: -40px;
+      top:100px;
+
+    }
+
+    .tooltip2{
+     bottom: 20%;
+     left: -20px;
+    }
+
+
+    
 }
